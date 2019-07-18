@@ -1,0 +1,13 @@
+﻿  소스.cpp
+c:\users\oheong\source\repos\swea 5653 줄기세포배양\swea 5653 줄기세포배양\소스.cpp(28): warning C4101: 'f' :참조되지 않은 지역 변수입니다.
+c:\users\oheong\source\repos\swea 5653 줄기세포배양\swea 5653 줄기세포배양\소스.cpp(43): warning C4101: 'f' :참조되지 않은 지역 변수입니다.
+c:\users\oheong\source\repos\swea 5653 줄기세포배양\swea 5653 줄기세포배양\소스.cpp(128): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(243): note: 'freopen' 선언을 참조하십시오.
+c:\users\oheong\source\repos\swea 5653 줄기세포배양\swea 5653 줄기세포배양\소스.cpp(129): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\oheong\source\repos\swea 5653 줄기세포배양\swea 5653 줄기세포배양\소스.cpp(131): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\oheong\source\repos\swea 5653 줄기세포배양\swea 5653 줄기세포배양\소스.cpp(136): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\oheong\source\repos\swea 5653 줄기세포배양\swea 5653 줄기세포배양\소스.cpp(56): warning C4715: 'peek': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  SWEA 5653 줄기세포배양.vcxproj -> C:\Users\Oheong\source\repos\SWEA 5653 줄기세포배양\Debug\SWEA 5653 줄기세포배양.exe

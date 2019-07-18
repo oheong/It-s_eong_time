@@ -1,0 +1,6 @@
+﻿  소스.cpp
+c:\users\oheong\source\repos\1182 부분수열의합\1182 부분수열의합\소스.cpp(24): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\oheong\source\repos\1182 부분수열의합\1182 부분수열의합\소스.cpp(26): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  1182 부분수열의합.vcxproj -> C:\Users\Oheong\source\repos\1182 부분수열의합\Debug\1182 부분수열의합.exe

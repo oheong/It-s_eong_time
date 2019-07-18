@@ -1,0 +1,11 @@
+﻿  소스.cpp
+c:\users\oheong\source\repos\swea 6109 추억의 2048게임\swea 6109 추억의 2048게임\소스.cpp(106): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(243): note: 'freopen' 선언을 참조하십시오.
+c:\users\oheong\source\repos\swea 6109 추억의 2048게임\swea 6109 추억의 2048게임\소스.cpp(107): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\oheong\source\repos\swea 6109 추억의 2048게임\swea 6109 추억의 2048게임\소스.cpp(109): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\oheong\source\repos\swea 6109 추억의 2048게임\swea 6109 추억의 2048게임\소스.cpp(112): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\oheong\source\repos\swea 6109 추억의 2048게임\swea 6109 추억의 2048게임\소스.cpp(22): warning C4715: 'geti': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  SWEA 6109 추억의 2048게임.vcxproj -> C:\Users\Oheong\source\repos\SWEA 6109 추억의 2048게임\Debug\SWEA 6109 추억의 2048게임.exe

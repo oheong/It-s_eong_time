@@ -1,0 +1,6 @@
+﻿  소스.cpp
+c:\users\oheong\source\repos\6603 로또\6603 로또\소스.cpp(24): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\oheong\source\repos\6603 로또\6603 로또\소스.cpp(27): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  6603 로또.vcxproj -> C:\Users\Oheong\source\repos\6603 로또\Debug\6603 로또.exe

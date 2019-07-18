@@ -1,0 +1,8 @@
+﻿  소스.cpp
+c:\users\oheong\source\repos\swea 7104 준홍마을의 사이 나쁜 개미들\swea 7104 준홍마을의 사이 나쁜 개미들\소스.cpp(32): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\oheong\source\repos\swea 7104 준홍마을의 사이 나쁜 개미들\swea 7104 준홍마을의 사이 나쁜 개미들\소스.cpp(34): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\oheong\source\repos\swea 7104 준홍마을의 사이 나쁜 개미들\swea 7104 준홍마을의 사이 나쁜 개미들\소스.cpp(36): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  SWEA 7104 준홍마을의 사이 나쁜 개미들.vcxproj -> C:\Users\Oheong\source\repos\SWEA 7104 준홍마을의 사이 나쁜 개미들\Debug\SWEA 7104 준홍마을의 사이 나쁜 개미들.exe

@@ -1,0 +1,10 @@
+﻿  소스.cpp
+c:\users\oheong\source\repos\swea 1907 모래성 쌓기\swea 1907 모래성 쌓기\소스.cpp(49): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(243): note: 'freopen' 선언을 참조하십시오.
+c:\users\oheong\source\repos\swea 1907 모래성 쌓기\swea 1907 모래성 쌓기\소스.cpp(50): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\oheong\source\repos\swea 1907 모래성 쌓기\swea 1907 모래성 쌓기\소스.cpp(55): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\oheong\source\repos\swea 1907 모래성 쌓기\swea 1907 모래성 쌓기\소스.cpp(58): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  SWEA 1907 모래성 쌓기.vcxproj -> C:\Users\Oheong\source\repos\SWEA 1907 모래성 쌓기\Debug\SWEA 1907 모래성 쌓기.exe

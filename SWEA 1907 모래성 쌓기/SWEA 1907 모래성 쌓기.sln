@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SWEA 1907 모래성 쌓기", "SWEA 1907 모래성 쌓기\SWEA 1907 모래성 쌓기.vcxproj", "{ED23F05E-F6D4-483A-9951-F13739D45952}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED23F05E-F6D4-483A-9951-F13739D45952}.Debug|x64.ActiveCfg = Debug|x64
+		{ED23F05E-F6D4-483A-9951-F13739D45952}.Debug|x64.Build.0 = Debug|x64
+		{ED23F05E-F6D4-483A-9951-F13739D45952}.Debug|x86.ActiveCfg = Debug|Win32
+		{ED23F05E-F6D4-483A-9951-F13739D45952}.Debug|x86.Build.0 = Debug|Win32
+		{ED23F05E-F6D4-483A-9951-F13739D45952}.Release|x64.ActiveCfg = Release|x64
+		{ED23F05E-F6D4-483A-9951-F13739D45952}.Release|x64.Build.0 = Release|x64
+		{ED23F05E-F6D4-483A-9951-F13739D45952}.Release|x86.ActiveCfg = Release|Win32
+		{ED23F05E-F6D4-483A-9951-F13739D45952}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEAFD6CE-B603-4A9E-B778-882AA8DEFDD7}
+	EndGlobalSection
+EndGlobal

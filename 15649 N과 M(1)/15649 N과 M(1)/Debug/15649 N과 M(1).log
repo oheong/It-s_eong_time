@@ -1,0 +1,4 @@
+﻿  소스.cpp
+c:\users\oheong\source\repos\15649 n과 m(1)\15649 n과 m(1)\소스.cpp(21): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  15649 N과 M(1).vcxproj -> C:\Users\Oheong\source\repos\15649 N과 M(1)\Debug\15649 N과 M(1).exe

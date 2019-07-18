@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodeGround 84 주사위", "CodeGround 84 주사위\CodeGround 84 주사위.vcxproj", "{387AE7A5-BDE8-4F84-8B64-AE739D571034}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{387AE7A5-BDE8-4F84-8B64-AE739D571034}.Debug|x64.ActiveCfg = Debug|x64
+		{387AE7A5-BDE8-4F84-8B64-AE739D571034}.Debug|x64.Build.0 = Debug|x64
+		{387AE7A5-BDE8-4F84-8B64-AE739D571034}.Debug|x86.ActiveCfg = Debug|Win32
+		{387AE7A5-BDE8-4F84-8B64-AE739D571034}.Debug|x86.Build.0 = Debug|Win32
+		{387AE7A5-BDE8-4F84-8B64-AE739D571034}.Release|x64.ActiveCfg = Release|x64
+		{387AE7A5-BDE8-4F84-8B64-AE739D571034}.Release|x64.Build.0 = Release|x64
+		{387AE7A5-BDE8-4F84-8B64-AE739D571034}.Release|x86.ActiveCfg = Release|Win32
+		{387AE7A5-BDE8-4F84-8B64-AE739D571034}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD82DABE-FCC7-4F51-AFA9-57766684603A}
+	EndGlobalSection
+EndGlobal

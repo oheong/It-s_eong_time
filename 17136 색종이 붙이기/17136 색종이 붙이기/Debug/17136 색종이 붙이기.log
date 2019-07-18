@@ -1,0 +1,6 @@
+﻿  소스.cpp
+c:\users\oheong\source\repos\17136 색종이 붙이기\17136 색종이 붙이기\소스.cpp(71): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(243): note: 'freopen' 선언을 참조하십시오.
+c:\users\oheong\source\repos\17136 색종이 붙이기\17136 색종이 붙이기\소스.cpp(74): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  17136 색종이 붙이기.vcxproj -> C:\Users\Oheong\source\repos\17136 색종이 붙이기\Debug\17136 색종이 붙이기.exe

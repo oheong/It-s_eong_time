@@ -1,0 +1,8 @@
+﻿  소스.cpp
+c:\users\oheong\source\repos\2468 안전 영역\2468 안전 영역\소스.cpp(44): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(243): note: 'freopen' 선언을 참조하십시오.
+c:\users\oheong\source\repos\2468 안전 영역\2468 안전 영역\소스.cpp(45): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\oheong\source\repos\2468 안전 영역\2468 안전 영역\소스.cpp(48): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  2468 안전 영역.vcxproj -> C:\Users\Oheong\source\repos\2468 안전 영역\Debug\2468 안전 영역.exe

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodeGround 84 주사위 BFS", "CodeGround 84 주사위 BFS\CodeGround 84 주사위 BFS.vcxproj", "{0BAF0456-D958-4690-AD2A-3F3560ED5036}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BAF0456-D958-4690-AD2A-3F3560ED5036}.Debug|x64.ActiveCfg = Debug|x64
+		{0BAF0456-D958-4690-AD2A-3F3560ED5036}.Debug|x64.Build.0 = Debug|x64
+		{0BAF0456-D958-4690-AD2A-3F3560ED5036}.Debug|x86.ActiveCfg = Debug|Win32
+		{0BAF0456-D958-4690-AD2A-3F3560ED5036}.Debug|x86.Build.0 = Debug|Win32
+		{0BAF0456-D958-4690-AD2A-3F3560ED5036}.Release|x64.ActiveCfg = Release|x64
+		{0BAF0456-D958-4690-AD2A-3F3560ED5036}.Release|x64.Build.0 = Release|x64
+		{0BAF0456-D958-4690-AD2A-3F3560ED5036}.Release|x86.ActiveCfg = Release|Win32
+		{0BAF0456-D958-4690-AD2A-3F3560ED5036}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E736870-9FB4-47E9-91D2-2A1242DB8FC4}
+	EndGlobalSection
+EndGlobal
