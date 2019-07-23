@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2455 지능형 기차", "2455 지능형 기차\2455 지능형 기차.vcxproj", "{7A39D5AC-DE52-4187-90AE-2A8208B30C84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A39D5AC-DE52-4187-90AE-2A8208B30C84}.Debug|x64.ActiveCfg = Debug|x64
+		{7A39D5AC-DE52-4187-90AE-2A8208B30C84}.Debug|x64.Build.0 = Debug|x64
+		{7A39D5AC-DE52-4187-90AE-2A8208B30C84}.Debug|x86.ActiveCfg = Debug|Win32
+		{7A39D5AC-DE52-4187-90AE-2A8208B30C84}.Debug|x86.Build.0 = Debug|Win32
+		{7A39D5AC-DE52-4187-90AE-2A8208B30C84}.Release|x64.ActiveCfg = Release|x64
+		{7A39D5AC-DE52-4187-90AE-2A8208B30C84}.Release|x64.Build.0 = Release|x64
+		{7A39D5AC-DE52-4187-90AE-2A8208B30C84}.Release|x86.ActiveCfg = Release|Win32
+		{7A39D5AC-DE52-4187-90AE-2A8208B30C84}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA4CCF02-889A-44D5-AFB1-C1968055BFB7}
+	EndGlobalSection
+EndGlobal
