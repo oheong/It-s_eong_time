@@ -1,0 +1,10 @@
+﻿  소스.cpp
+c:\users\oheong\source\repos\swea 7812 옥희의 ok부동산\swea 7812 옥희의 ok부동산\소스.cpp(6): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(243): note: 'freopen' 선언을 참조하십시오.
+c:\users\oheong\source\repos\swea 7812 옥희의 ok부동산\swea 7812 옥희의 ok부동산\소스.cpp(7): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\oheong\source\repos\swea 7812 옥희의 ok부동산\swea 7812 옥희의 ok부동산\소스.cpp(10): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\oheong\source\repos\swea 7812 옥희의 ok부동산\swea 7812 옥희의 ok부동산\소스.cpp(12): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  SWEA 7812 옥희의 OK부동산.vcxproj -> C:\Users\Oheong\source\repos\SWEA 7812 옥희의 OK부동산\Debug\SWEA 7812 옥희의 OK부동산.exe
