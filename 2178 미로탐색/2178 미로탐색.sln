@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2178 미로탐색", "2178 미로탐색\2178 미로탐색.vcxproj", "{D6044D3D-E11D-4CA7-B419-55E955F3DA43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6044D3D-E11D-4CA7-B419-55E955F3DA43}.Debug|x64.ActiveCfg = Debug|x64
+		{D6044D3D-E11D-4CA7-B419-55E955F3DA43}.Debug|x64.Build.0 = Debug|x64
+		{D6044D3D-E11D-4CA7-B419-55E955F3DA43}.Debug|x86.ActiveCfg = Debug|Win32
+		{D6044D3D-E11D-4CA7-B419-55E955F3DA43}.Debug|x86.Build.0 = Debug|Win32
+		{D6044D3D-E11D-4CA7-B419-55E955F3DA43}.Release|x64.ActiveCfg = Release|x64
+		{D6044D3D-E11D-4CA7-B419-55E955F3DA43}.Release|x64.Build.0 = Release|x64
+		{D6044D3D-E11D-4CA7-B419-55E955F3DA43}.Release|x86.ActiveCfg = Release|Win32
+		{D6044D3D-E11D-4CA7-B419-55E955F3DA43}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3108B70-58FF-4FF4-98EC-3450C77D631C}
+	EndGlobalSection
+EndGlobal
