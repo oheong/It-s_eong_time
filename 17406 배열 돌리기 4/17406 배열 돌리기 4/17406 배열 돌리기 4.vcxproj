@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{2D907757-BBF1-4E53-917A-1A383135A2B4}</ProjectGuid>
+    <ProjectGuid>{0455F2C7-D03D-42A4-B880-186DF8D46E04}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My17406배열추가하기</RootNamespace>
+    <RootNamespace>My17406배열돌리기4</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
