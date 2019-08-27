@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15891 스타트링크 사무실을 파헤쳐보자", "15891 스타트링크 사무실을 파헤쳐보자\15891 스타트링크 사무실을 파헤쳐보자.vcxproj", "{DD9AE880-077A-4933-BC3E-36863029EEB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD9AE880-077A-4933-BC3E-36863029EEB1}.Debug|x64.ActiveCfg = Debug|x64
+		{DD9AE880-077A-4933-BC3E-36863029EEB1}.Debug|x64.Build.0 = Debug|x64
+		{DD9AE880-077A-4933-BC3E-36863029EEB1}.Debug|x86.ActiveCfg = Debug|Win32
+		{DD9AE880-077A-4933-BC3E-36863029EEB1}.Debug|x86.Build.0 = Debug|Win32
+		{DD9AE880-077A-4933-BC3E-36863029EEB1}.Release|x64.ActiveCfg = Release|x64
+		{DD9AE880-077A-4933-BC3E-36863029EEB1}.Release|x64.Build.0 = Release|x64
+		{DD9AE880-077A-4933-BC3E-36863029EEB1}.Release|x86.ActiveCfg = Release|Win32
+		{DD9AE880-077A-4933-BC3E-36863029EEB1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71DF5CD6-7EF3-415E-A893-E18E5F7283CF}
+	EndGlobalSection
+EndGlobal
