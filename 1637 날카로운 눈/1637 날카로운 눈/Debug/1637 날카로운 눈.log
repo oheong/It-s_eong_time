@@ -1,8 +1,0 @@
-﻿  소스.cpp
-c:\users\oheong\source\repos\1637 날카로운 눈\1637 날카로운 눈\소스.cpp(35): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(243): note: 'freopen' 선언을 참조하십시오.
-c:\users\oheong\source\repos\1637 날카로운 눈\1637 날카로운 눈\소스.cpp(36): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
-c:\users\oheong\source\repos\1637 날카로운 눈\1637 날카로운 눈\소스.cpp(38): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
-  1637 날카로운 눈.vcxproj -> C:\Users\Oheong\source\repos\1637 날카로운 눈\Debug\1637 날카로운 눈.exe
