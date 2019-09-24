@@ -1,55 +1,35 @@
-#include<stdio.h>
-#define SIZE 51
-int M, N, min = 2123456789, f = -1, r = -1, count;
-char map[SIZE][SIZE], copymap[8][8];
-int visited[8][8], bx[4] = { 1,-1,0,0 }, by[4] = { 0,0,1,-1 };
-typedef struct { int y; int x; }Queue;
-Queue q[SIZE*SIZE];
-void enQ(int y, int x) {
-	r++;
-	q[r].y = y;
-	q[r].x = x;
-}
-void deQ() { f++; }
-Queue peek() { return q[f + 1]; }
-int empty() {
-	if (f == r) return 1;
-	else return 0;
-}
-void copy(int y, int x) {
-	f = r = -1;
-	count = 0;
+#include <stdio.h>
+int N, M, min = 2123456789;
+char map[51][51];
+char arr1[8][8] = {
+	'W','B','W','B','W','B','W','B',
+	'B','W','B','W','B','W','B','W',
+	'W','B','W','B','W','B','W','B',
+	'B','W','B','W','B','W','B','W',
+	'W','B','W','B','W','B','W','B',
+	'B','W','B','W','B','W','B','W',
+	'W','B','W','B','W','B','W','B',
+	'B','W','B','W','B','W','B','W'
+}, arr2[8][8] = {
+	'B','W','B','W','B','W','B','W',
+	'W','B','W','B','W','B','W','B',
+	'B','W','B','W','B','W','B','W',
+	'W','B','W','B','W','B','W','B',
+	'B','W','B','W','B','W','B','W',
+	'W','B','W','B','W','B','W','B',
+	'B','W','B','W','B','W','B','W',
+	'W','B','W','B','W','B','W','B'
+};
+int counting(int y, int x) {
+	int num1 = 0, num2 = 0;
 	for (int i = 0; i < 8; i++) {
 		for (int j = 0; j < 8; j++) {
-			copymap[i][j] = map[i + y][j + x];
-			visited[i][j] = 0;
+			if (map[i + y][j + x] != arr1[i][j]) num1++;
+			if (map[i + y][j + x] != arr2[i][j]) num2++;
 		}
 	}
-}
-void bfs(int y, int x) {
-	visited[y][x] = 1;
-	enQ(y, x);
-	while (empty() == 0) {
-		int tx = peek().x;
-		int ty = peek().y;
-		deQ();
-		for (int i = 0; i < 4; i++) {
-			int ny = ty + by[i];
-			int nx = tx + bx[i];
-			if (0 <= nx && nx < 8 && 0 <= ny && ny < 8 && visited[ny][nx] == 0) {
-				if (copymap[ty][tx] == copymap[ny][nx]) {
-					if (copymap[ty][tx] == 'B')
-						copymap[ny][nx] = 'W';
-					else
-						copymap[ny][nx] = 'B';
-					count++;
-				}
-				enQ(ny, nx);
-				visited[ny][nx] = 1;
-			}
-		}
-	}
-	if (min > count) min = count;
+	if (num1 > num2)return num2;
+	else return num1;
 }
 int main() {
 	freopen("Text.txt", "r", stdin);
@@ -61,12 +41,8 @@ int main() {
 	}
 	for (int i = 0; i <= N - 8; i++) {
 		for (int j = 0; j <= M - 8; j++) {
-			//½ÃÀÛÁÂÇ¥ 
-			copy(i, j);
-			bfs(0, 0);
-
-			copy(i, j);
-			bfs(7, 7);
+			int t = counting(i, j);
+			if (min > t)min = t;
 		}
 	}
 	printf("%d\n", min);
