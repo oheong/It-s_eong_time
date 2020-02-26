@@ -4,7 +4,7 @@ int T, N;
 double max;
 int map[SIZE][SIZE], visited[SIZE];
 void dfs(int d, double sum) {
-	if (sum <= max) return;//¿Í ÀÌ·±»ý°¢ ¾î¶»°ÔÇÏÁö ½Ã¹ß Áø½É?
+	if (sum <= max) return;//ì™€ ì´ëŸ°ìƒê° ì–´ë–»ê²Œí•˜ì§€
 	if (d == N) {
 		if (max < sum) max = sum;
 		return;
@@ -29,7 +29,7 @@ int main() {
 		}
 		dfs(0, 1.0);
 		printf("#%d %6f\n", test + 1, max * 100);
-		max = 0.0;//ÃÊ±âÈ­ ¾¾¹ß ÁøÂ¥
+		max = 0.0;//ì´ˆê¸°í™” ì«Œ
 	}
 	return 0;
 }
