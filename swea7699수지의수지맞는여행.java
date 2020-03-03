@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class swea7699¼öÁöÀÇ¼öÁö¸Â´Â¿©Çà {
+public class swea7699ìˆ˜ì§€ì˜ìˆ˜ì§€ë§ëŠ”ì—¬í–‰ {
 	static int R, C, max;
 	static char[][] map;
 	static int[][] visited;
