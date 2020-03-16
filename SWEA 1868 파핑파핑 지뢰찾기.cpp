@@ -1,8 +1,9 @@
 #include <stdio.h>
-#define SIZE 301
-int T, N, f = -1, r = -1, ans;
-char map[SIZE][SIZE], num[SIZE][SIZE];
-int visited[SIZE][SIZE], by[8] = { -1,-1,0,1,1,1,0,-1 }, bx[8] = { 0,1,1,1,0,-1,-1,-1 };
+#define SIZE 310
+int T, N, f, r, ans;
+char bomb[SIZE][SIZE];
+int map[SIZE][SIZE], visited[SIZE][SIZE];
+int by[8] = { -1,-1,0,1,1,1,0,-1 }, bx[8] = { 0,1,1,1,0,-1,-1,-1 };
 typedef struct { int y; int x; }Queue;
 Queue q[SIZE*SIZE];
 void enQ(int y, int x) {
@@ -11,32 +12,37 @@ void enQ(int y, int x) {
 	q[r].x = x;
 }
 void deQ() { f++; }
-Queue peek() { return q[f + 1]; }
 int empty() {
-	if (r == f)return 1;
+	if (f == r)return 1;
 	else return 0;
 }
-void find_num() {
+Queue peek() { return q[f + 1]; }
+int is_ok(int y, int x) {
+	if (0 <= y && y < N && 0 <= x && x < N)return 1;
+	return 0;
+}
+void change_map() {
+	ans = 0;
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < N; j++) {
-			if (map[i][j] == '*') {
-				num[i][j] = -1;
+			visited[i][j] = 0;
+			map[i][j] = 0;
+			if (bomb[i][j] == '*') {
+				map[i][j] = 9;
 				continue;
 			}
-			int count = 0;
 			for (int n = 0; n < 8; n++) {
-				int ny = i + by[n];
-				int nx = j + bx[n];
-				if (0 > ny || ny >= N || 0 > nx || nx >= N) continue;
-				else if (map[ny][nx] == '*')count++;
+				if (is_ok(i + by[n], j + bx[n]) == 0)continue;
+				if (bomb[i + by[n]][j + bx[n]] == '*')
+					map[i][j]++;
 			}
-			num[i][j] = count;
 		}
 	}
 }
-void bfs(int y, int x) {
+void bfs(int y, int x, int cnt) {
+	f = r = -1;
 	enQ(y, x);
-	visited[y][x] = 1;
+	visited[y][x] = cnt;
 	while (empty() == 0) {
 		int ty = peek().y;
 		int tx = peek().x;
@@ -44,20 +50,10 @@ void bfs(int y, int x) {
 		for (int i = 0; i < 8; i++) {
 			int ny = ty + by[i];
 			int nx = tx + bx[i];
-			if (0 <= ny && ny < N && 0 <= nx && nx < N&&visited[ny][nx] == 0) {
-				if (num[ny][nx] == 0) enQ(ny, nx);
-				visited[ny][nx] = 1;
+			if (is_ok(ny, nx) == 1 && visited[ny][nx] == 0 && map[ny][nx] != 9) {
+				if (map[ny][nx] == 0) enQ(ny, nx);
+				visited[ny][nx] = cnt;
 			}
-		}
-	}
-}
-void init() {
-	f = r = -1;
-	for (int i = 0; i < N; i++) {
-		for (int j = 0; j < N; j++) {
-			if (num[i][j] != -1 && visited[i][j] == 0) ans++;
-			num[i][j] = 0;
-			visited[i][j] = 0;
 		}
 	}
 }
@@ -67,23 +63,25 @@ int main() {
 	for (int test = 0; test < T; test++) {
 		scanf("%d\n", &N);
 		for (int i = 0; i < N; i++) {
-			for (int j = 0; j <= N; j++) {
-				scanf("%c", &map[i][j]);
-			}
+			scanf("%s", &bomb[i]);
 		}
-		find_num();
+		change_map();
 		for (int i = 0; i < N; i++) {
 			for (int j = 0; j < N; j++) {
-				if (num[i][j] == 0 && visited[i][j] == 0) {
-					f = r = -1;
-					bfs(i, j);
-					ans++;
+				if (map[i][j] == 9)continue;
+				if (map[i][j]==0&&visited[i][j] == 0) {
+					bfs(i, j, ++ans);
+
 				}
 			}
 		}
-		init();
+		for (int i = 0; i < N; i++) {
+			for (int j = 0; j < N; j++) {
+				if (map[i][j] == 9)continue;
+				if (visited[i][j] == 0)ans++;
+			}
+		}
 		printf("#%d %d\n", test + 1, ans);
-		ans = 0;
 	}
 	return 0;
 }
