@@ -1,8 +1,6 @@
 #include <stdio.h>
-int T, D, W, K, min, count;
-int map[13][20], copy_map[13][20], visited[13];// , AorB[13];
-typedef struct { int what; int ab; }AORB;
-AORB AorB[13];
+int T, D, W, K, min, drug_cnt;
+int map[13][20], copy_map[13][20], visited[13], drug[2][13]; // 0에 index 1에 약물종류
 void copy() {
 	for (int i = 0; i < D; i++) {
 		for (int j = 0; j < W; j++) {
@@ -10,64 +8,62 @@ void copy() {
 		}
 	}
 }
-void input(int a, int cou) {
-	for (int i = 0; i < W; i++) {
-		copy_map[a][i] = cou;
+void push(int y, int c) {
+	for (int j = 0; j < W; j++) {
+		copy_map[y][j] = c;
 	}
 }
-int search(int w) {
+int testing(int x) {
 	for (int i = 0; i <= D - K; i++) {
-		int start = copy_map[i][w];
-		int flag = 0;
-		for (int j = i + 1; j < i + K; j++) {
-			if (start != copy_map[j][w]) {
-				flag = 1;
-				break;
-			}
+		int count = 0;
+		int key = copy_map[i][x];
+		for (int k = 0; k < K; k++) {
+			if (key == copy_map[i + k][x]) count++;
+			else break;
 		}
-		if (flag == 0)return 1;
+		if (count == K)return 1;
 	}
 	return -1;
 }
-void choice(int d, int c) {
-	if (d == c) {
-		for (int i = 0; i < W; i++) {
-			if (search(i) == -1)return;
+void choice_drug(int d, int n) {
+	if (d == n) {
+		// 검사를 시작하지
+
+		for (int j = 0; j < W; j++) {
+			if (testing(j) == -1) return;
 		}
-		if (min > c)min = c;
+
+		if (d < min)
+			min = d;
+
 		return;
 	}
-	AorB[d].what = 0;
-	input(AorB[d].ab, 0);
-	choice(d + 1, c);
-	AorB[d].what = 1;
-	input(AorB[d].ab, 1);
-	choice(d + 1, c);
+	drug[1][d] = 0;
+	push(drug[0][d], 0);
+	choice_drug(d + 1, n);
+	drug[1][d] = 1;
+	push(drug[0][d], 1);
+	choice_drug(d + 1, n);
 }
-void dfs(int d, int c) {//depth, 갯수
-	
+void dfs(int d, int c) {
 	if (c > K)return;
-	//와 시발 이거 조건 미쳤나 시발 와 시간초과 통과함 와 시발 와;;;;;;
-	
-	
-	
-	if (d == D) {//visited[]==1이면 약물 투여 해 줘야함
+	if (d == D) {
 		copy();
-		choice(0, c);
+		choice_drug(0, c);
 		return;
 	}
 	visited[d] = 0;
 	dfs(d + 1, c);
+
 	visited[d] = 1;
-	AorB[c].ab = d;
+	drug[0][c] = d;
 	dfs(d + 1, c + 1);
-	AorB[c].ab = 0;
 }
 int main() {
 	freopen("Text.txt", "r", stdin);
 	scanf("%d", &T);
 	for (int test = 0; test < T; test++) {
-		scanf("%d %d %d", &D, &W, &K);//K 통과기준
+		scanf("%d %d %d", &D, &W, &K);
 		for (int i = 0; i < D; i++) {
 			for (int j = 0; j < W; j++) {
 				scanf("%d", &map[i][j]);
