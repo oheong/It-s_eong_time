@@ -24,49 +24,30 @@ class Solution {
             } 
             // 유일성 만족 끝
             
-            // 최소성 시작 ans, list
-            
-            ArrayList<String> tempList = new ArrayList<String>();
-            
-            //list에 int형으로 들어가있음
-            for(int i=0;i<ans.size();i++){
-                String[] ansStr = ans.get(i).split(""); // ans에 있는것들 전부다 짤라줌
-                
-                for(int j=0;j<ansStr.length;j++){
-                    for(int t=0;t<tempList.size();t++){
-                        tempList.add(Integer.toString(list.get(t)));
-                    }
-                    for(int t=0;t<tempList.size();t++){
-                        if(tempList.get(t).equals(ansStr[j])){
-                            tempList.remove(t);
-                            break;
-                        }
-                    }
-                }
-            }  
-            
+            // 최소성 시작 ans, list            
             String str = "";
             for(int i = 0; i < list.size(); i++){
                 str += Integer.toString(list.get(i));
             }
-            /* 
+              
             for(int i = 0; i < ans.size(); i++){
-                if(str.contains(ans.get(i))) return;
+                if(str.contains(ans.get(i))) // 지금 뽑아놓은게 이미 키에 포함되어있으면 return
+                    return;
             }   
             // 후처리 한번 더
-            ArrayList<Integer> map = new ArrayList<Integer>();
-            for(int i=0;i<list.size();i++){
-                String[] strArr = str.split("");
-                for(int j=0;j<str.length();j++){
-                    if(list.get(i).equals(strArr[j])){
-                        map.add(1);
-                        break;
+            for(int a = 0; a < ans.size(); a++){
+                String[] temp = ans.get(a).split("");
+                int cnt = 0;
+                for(int i = 0; i < temp.length; i++){
+                    for(int j = 0; j < str.length(); j++){
+                        if(temp[i].equals(str.charAt(j)+"")){ // 같은게 있다!
+                            cnt++;
+                            break;
+                        }
                     }
                 }
+                if(cnt == temp.length) return;
             }
-            if(list.size() == map.size())
-                return;
-            */
             ans.add(str);
             return;
         }
