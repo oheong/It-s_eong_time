@@ -6,7 +6,7 @@ class Solution {
         if(s.charAt(0) == ')' || s.charAt(s.length() - 1) == '(' || s.length()%2 == 1) return false;
 
         for(int i = 0; i < s.length(); i++){
-            Character c = s.charAt(i);
+            char c = s.charAt(i); // 도랏나 Character => char 하니까 바로 효율성통과함 미쳤음?
             if(!stack.isEmpty() && c == ')' && stack.peek() == '(')
                 stack.pop();
             
